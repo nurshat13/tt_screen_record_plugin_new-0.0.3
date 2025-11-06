@@ -1,4 +1,4 @@
-name: tt_screen_record_plugin
+name: tt_screen_record_plugin_new
 description: "Screen recording component supports Android and iOS. Android uses the device_screen_recorder plugin
 The system capability used by iOS is ReplayKit. Only after iOS14 (including 14) can the screen recording be saved to a custom path, such as a sandbox.
 Before iOS14, recorded videos will be saved in the photo album"
@@ -38,7 +38,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.tt_screen_record_plugin
+        package: com.example.tt_screen_record_plugin_new
         pluginClass: TtScreenRecordPlugin
       ios:
         pluginClass: TtScreenRecordPlugin

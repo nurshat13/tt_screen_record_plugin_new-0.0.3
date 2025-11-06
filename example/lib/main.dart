@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:tt_screen_record_plugin/tt_screen_record_plugin.dart';
+import 'package:tt_screen_record_plugin_new/tt_screen_record_plugin.dart';
 
 void main() {
   runApp(const MyApp());

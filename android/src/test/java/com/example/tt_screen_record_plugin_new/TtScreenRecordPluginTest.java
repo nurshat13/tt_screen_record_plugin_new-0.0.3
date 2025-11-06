@@ -1,4 +1,4 @@
-package com.example.tt_screen_record_plugin;
+package com.example.tt_screen_record_plugin_new;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;

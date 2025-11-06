@@ -1,4 +1,4 @@
-group 'com.example.tt_screen_record_plugin'
+group 'com.example.tt_screen_record_plugin_new'
 version '1.0'
 
 buildscript {
@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.example.tt_screen_record_plugin'
+        namespace 'com.example.tt_screen_record_plugin_new'
     }
 
     compileSdk 34

@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tt_screen_record_plugin/tt_screen_record_plugin.dart';
-import 'package:tt_screen_record_plugin/tt_screen_record_plugin_platform_interface.dart';
-import 'package:tt_screen_record_plugin/tt_screen_record_plugin_method_channel.dart';
+import 'package:tt_screen_record_plugin_new/tt_screen_record_plugin.dart';
+import 'package:tt_screen_record_plugin_new/tt_screen_record_plugin_platform_interface.dart';
+import 'package:tt_screen_record_plugin_new/tt_screen_record_plugin_method_channel.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockTtScreenRecordPluginPlatform
