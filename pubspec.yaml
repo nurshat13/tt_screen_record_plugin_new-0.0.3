@@ -3,15 +3,14 @@ description: "Screen recording component supports Android and iOS. Android uses 
 The system capability used by iOS is ReplayKit. Only after iOS14 (including 14) can the screen recording be saved to a custom path, such as a sandbox.
 Before iOS14, recorded videos will be saved in the photo album"
 version: 0.0.3
-homepage: https://potenthockey.com
+homepage: https://github.com/nurshat13/tt_screen_record_plugin_new-0.0.3
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:
-  device_screen_recorder:
-    path: ./device_screen_recorder_new-0.0.4
+  device_screen_recorder_new: ^0.0.6
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2

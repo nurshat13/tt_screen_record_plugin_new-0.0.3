@@ -1,6 +1,7 @@
 import 'dart:io';
+import 'package:device_screen_recorder_new/device_screen_recorder.dart';
+
 import 'tt_screen_record_plugin_platform_interface.dart';
-import 'package:device_screen_recorder/device_screen_recorder.dart';
 
 class TtScreenRecordPlugin {
   bool _isRecording = false;
